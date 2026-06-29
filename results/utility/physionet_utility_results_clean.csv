@@ -1,0 +1,3 @@
+experiment,dataset,subjects,target,label,split,model,accuracy,balanced_accuracy,f1_macro,f1_weighted,keras_test_loss,keras_test_accuracy,n_train,n_test,train_runs,test_runs,normalization
+Utility Exp 1,PhysioNet Motor Imagery,1-50,left/right motor imagery,y,random stratified trial split,EEGNet,0.7884187082405345,0.7883050914718839,0.788313705639178,0.7883452064195849,0.45678985118865967,0.788418710231781,1796,449,mixed,mixed,per-trial per-channel z-score
+Utility Exp 2,PhysioNet Motor Imagery,1-50,left/right motor imagery,y,"run-held-out: train runs 4 and 8, test run 12",EEGNet,0.7205882352941176,0.7203872111644932,0.7201074939619689,0.7201695251016009,0.5496251583099365,0.720588207244873,1497,748,"4,8",12,per-trial per-channel z-score
