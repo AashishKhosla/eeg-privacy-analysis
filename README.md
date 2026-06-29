@@ -1,3 +1,4 @@
+
 # EEG Privacy Analysis
 
 This repository contains code, notebooks, results, and reports for EEG privacy and utility experiments.
@@ -21,3 +22,4 @@ This repository contains code, notebooks, results, and reports for EEG privacy a
 ## Data
 
 Raw EEG datasets are not included because of size, privacy, and licensing concerns.
+
